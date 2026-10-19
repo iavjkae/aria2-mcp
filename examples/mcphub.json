@@ -1,0 +1,15 @@
+[
+  {
+    "name": "aria2-mcp",
+    "title": "aria2",
+    "description": "Download manager control through aria2 JSON-RPC",
+    "config": {
+      "command": "npx",
+      "args": ["-y", "github:iavjkae/aria2-mcp"],
+      "env": {
+        "ARIA2_RPC_URL": "${ARIA2_RPC_URL}",
+        "ARIA2_RPC_SECRET": "${ARIA2_RPC_SECRET}"
+      }
+    }
+  }
+]
